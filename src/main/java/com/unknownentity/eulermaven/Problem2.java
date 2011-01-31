@@ -26,9 +26,6 @@ public class Problem2 {
          */
         final int limit = 4000000;
 
-        public Problem2() {
-        }
-
         private boolean isEven(long i) {
                 if (i % 2 == 0) {
                         return true;

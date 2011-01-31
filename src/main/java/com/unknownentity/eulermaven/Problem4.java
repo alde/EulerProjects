@@ -42,7 +42,6 @@ class Problem4 {
 
         private Integer invertNumber(Integer number) {
                 Integer newNumber = 0;
-                //You can here do something to make sure 'number' is not negative
                 while (number > 0) {
                         newNumber = newNumber * 10 + number % 10;
                         number = number / 10;

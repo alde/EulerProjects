@@ -17,9 +17,6 @@ public class Problem1 {
          *
          */
 
-        public Problem1() {
-        }
-
         public void showResult() {
                 int sum = 0;
                 for (int n = 0; n < 1000; n++) {

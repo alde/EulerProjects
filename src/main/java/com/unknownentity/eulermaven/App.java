@@ -59,9 +59,17 @@ public class App {
 //            System.out.println("Euler 13: ");
 //            Problem13 p13 = new Problem13();
 //            p13.showResult();
+//
+//            System.out.println("Euler 14: ");
+//            Problem14 p14 = new Problem14();
+//            p14.showResult();
+//
+//            System.out.println("Euler 15: ");
+//            Problem15 p15 = new Problem15();
+//            p15.showResult();
 
-            System.out.println("Euler 14: ");
-            Problem14 p14 = new Problem14();
-            p14.showResult();
+            System.out.println("Euler 16: ");
+            Problem16 p16 = new Problem16();
+            p16.showResult();
         }
 }

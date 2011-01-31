@@ -76,8 +76,12 @@ public class App {
 //            Problem17 p17 = new Problem17();
 //            p17.showResult();
 //
-            System.out.println("Euler 18: ");
-            Problem18 p18 = new Problem18();
-            p18.showResult();
+//            System.out.println("Euler 18: ");
+//            Problem18 p18 = new Problem18();
+//            p18.showResult();
+//
+            System.out.println("Euler 67: ");
+            Problem67 p67 = new Problem67();
+            p67.showResult();
         }
 }

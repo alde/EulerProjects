@@ -1,0 +1,13 @@
+*~
+*#
+src_managed
+target
+dist
+build
+manifest.mf
+.project
+.settings
+.classpath
+.idea
+.scala_dependencies
+*.properties

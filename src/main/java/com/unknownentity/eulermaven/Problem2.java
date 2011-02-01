@@ -4,7 +4,6 @@
  */
 package com.unknownentity.eulermaven;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,8 +45,6 @@ public class Problem2 {
         }
 
         private List<Long> fibonacci() {
-
-                long a = 0, b = 1;
                 List<Long> list = new ArrayList<Long>();
                 long t = 0, i=0;
                 while (t <= limit) {
@@ -59,13 +56,9 @@ public class Problem2 {
         }
 
         private long fib(long k) {
-
-                // Base Case:
-                //   If k <= 2 then fib(k) = 1.
                 if (k <= 2) {
                         return 1;
-                } // Recursive Case:
-                //   If k > 2 then fib(k) = fib(k-1) + fib(k-2).
+                }
                 else {
                         return fib(k - 1) + fib(k - 2);
                 }

@@ -80,8 +80,12 @@ public class App {
 //            Problem18 p18 = new Problem18();
 //            p18.showResult();
 //
-            System.out.println("Euler 67: ");
-            Problem67 p67 = new Problem67();
-            p67.showResult();
+//            System.out.println("Euler 67: ");
+//            Problem67 p67 = new Problem67();
+//            p67.showResult();
+//
+            System.out.println("Euler 20: ");
+            Problem20 p20 = new Problem20();
+            p20.showResult();
         }
 }
